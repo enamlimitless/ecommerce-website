@@ -1,0 +1,68 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+html{font-size:62.5%;}
+a{text-decoration: none;}
+p{
+    color: #565655;
+    font-size:1.5rem;
+    line-height: 1.7;
+}
+.custom-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    padding:1.7rem 3.5rem;
+    background: #3848D2;
+    display: inline-block;
+    border-radius:.5rem;
+    color: #fff;
+    font-size:1.5rem;
+}
+.fas{font-size:1.5rem;padding-right:.5rem;}
+h1,h2,h3{
+    font-family: 'Bebas Neue', cursive;
+}
+section{padding:10rem 0;}
+.section-head{font-size:5rem;color:#363958;margin: 5rem 0;}
+.light-heiglight{
+    font-size: 7rem;
+    color: #FA804C;
+
+}
+.dark-heiglight{
+    font-size: 7rem;
+    color: #363958;
+}
+.hero-text-box{
+    margin:7rem 0 0 10rem;
+}
+
+#casual .shoes-price,
+#formal .shoes-price{
+    font-size:4rem;
+    color: #FA804C;
+    font-weight: 700;
+}
+.custom-card{
+    background: #fff;
+    border:0;
+    padding:2rem;
+    border-radius: 1rem;
+    margin-right: 3rem;
+}
+#casual.custom-card:last-child,
+#formal.custom-card:last-child{margin-right: 0;}
+.card-title{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size:2.5rem;
+    color: #363958;
+}
+.card-img-top{
+    background: #eee;
+    padding:2rem;
+    border-radius: .7rem;
+}
+.card-footer{border:0;background: #fff;}
