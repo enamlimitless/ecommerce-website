@@ -4,9 +4,9 @@ body{
     font-family: 'Roboto', sans-serif;
     overflow-x:hidden;
 }
-                        /*==================================*/
-                            /* End Heading Section */
-                        /*==================================*/
+                /*=====================================================*/
+                   /*typography that share the same design repeated*/
+                /*=====================================================*/
 html{font-size:62.5%;}
 a{text-decoration: none;}
 p{
@@ -35,6 +35,9 @@ h1,h2,h3{
 }
 section{padding:10rem 0;}
 .section-head{font-size:5rem;color:#363958;}
+                        /*==================================*/
+                            /* Start Heading Section */
+                        /*==================================*/
 .light-heiglight{
     font-size: 7rem;
     color: #FA804C;
@@ -140,11 +143,10 @@ section{padding:10rem 0;}
 #footer ul li a:hover{
     color: #FA804C;
 }
-#footer .social-links li a{
+#footer .social-links li{
     float:left;
-    margin-right: 3rem;
 }
-
+#footer .social-links li a{margin-right: 3rem;}
 
                         /*==================================*/
                             /* Start Media Qurie's Section */
@@ -172,5 +174,4 @@ section{padding:10rem 0;}
     .detail{text-align: center;margin: 2rem auto;}
     section{padding: 5rem 0;}
     .section-head{text-align: center;}
-    #footer 
  }
