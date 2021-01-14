@@ -25,11 +25,19 @@ h1,h2,h3{
     font-family: 'Bebas Neue', cursive;
 }
 section{padding:10rem 0;}
-.section-head{font-size:5rem;color:#363958;margin: 5rem 0;}
+.section-head{font-size:5rem;color:#363958;}
 .light-heiglight{
     font-size: 7rem;
     color: #FA804C;
 
+}
+#header{background: #FFF9F4;padding:2rem 0 5rem 0;}
+#header nav .logo{width:30rem;}
+#header nav .logo img{width:100%;}
+#header nav .custom-link{
+    font-size:1.5rem;
+    color: #3B3B3B;
+    margin-right: 3rem;
 }
 .dark-heiglight{
     font-size: 7rem;
@@ -66,3 +74,31 @@ section{padding:10rem 0;}
     border-radius: .7rem;
 }
 .card-footer{border:0;background: #fff;}
+
+
+.custom-area{
+    padding: 3rem;
+    width:40rem;
+    background: #fff;
+    margin: 1rem;
+    box-shadow: .1rem .2rem .7rem #ccc;
+}
+.custom-area h4{
+    font-size:2.5rem;
+    color:#363958;
+}
+.custom-area img{
+    width:7rem;
+    float:left;
+    margin-right: 2rem;
+}
+
+#support{
+    background-color: #F6F6F8;
+}
+#support i{font-size:3rem;color:rgb(122, 115, 115);} 
+#footer{
+    padding: 5rem 0;
+    background: #222222;
+    color: #fff;
+}

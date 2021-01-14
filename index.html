@@ -12,26 +12,25 @@
 </head>
 <body>
 <header id="header">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Nike React</a>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+              <a class="navbar-brand logo" href="#"><img class="img-fluid" src="img/Logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto" style="margin-left:auto;">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active custom-link" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link custom-link" href="#">Features</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link custom-link" href="#">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link custom-link" href="#">Disabled</a>
                   </li>
                 </ul>
               </div>
@@ -53,7 +52,6 @@
               </div>
             </div>
           </div>
-    </div>
 </header>
 
 <section id="casual">
@@ -167,7 +165,26 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        img
+        <div class="row">
+          <div class="custom-area">
+            <img src="img/icon1.png" alt="">
+            <h4>Find the Perfect Fit</h4>
+            <p>Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+          <div class="custom-area">
+            <img src="img/icon2.png" alt="">
+            <h4>Free Exchanges</h4>
+            <p>One of the many reasons you can shop with peace of mind.</p>
+          </div>
+          <div class="custom-area">
+            <img src="img/icon3.png" alt="">
+            <h4>Contact Our Seller</h4>
+            <p>They are here to help you. That's quite literally what we pay them for.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid mt-5" src="img/shoping.png" alt="">
       </div>
     </div>
   </div>
@@ -175,11 +192,93 @@
 
 
 
+<section id="support">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="about-shipping d-flex justify-content-around">
+          <i class="fas fa-plane mt-3"></i>
+          <div class="shipping-text">
+            <h4 class="h2">Free Shipping</h4>
+            <p>Free Shipping All Over The World</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="about-support d-flex justify-content-around">
+          <i class="fas fa-headset mt-3"></i>
+          <div class="shipping-text">
+            <h4 class="h2">Support 24/7</h4>
+            <p>we support 24 hours a day</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="about-return d-flex justify-content-around">
+          <i class="fas fa-sync mt-3"></i>
+          <div class="shipping-text">
+            <h4 class="h2">21 days return</h4>
+            <p>you have 21 days to return</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="about-security d-flex justify-content-around">
+          <i class="fas fa-shield-alt mt-3"></i>
+          <div class="shipping-text">
+            <h4 class="h2">Payment 100% Secure</h4>
+            <p>Payment 100% Secure We Provide Best</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
-
-
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h5 class="h1"><i class="fas fa-map-marker-alt"></i> 480 Main Rd E, 
+          VlC 2030, Luton</h5>
+          <h5 class="h1"><i class="far fa-envelope"></i> contact@example.com </h5>
+          <h5 class="h1"><i class="fas fa-phone-alt"></i> +944 33 00 88 55 44 33 22</h5>
+      </div>
+      <div class="col-md-3">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Nike</a></li>
+          <li><a href="#">Adidas</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Returns & Exchanges</a></li>
+          <li><a href="#">Shipping & Delivery</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Useful links</h5>
+        <ul>
+          <li><a href="#">Shop Location</a></li>
+          <li><a href="#">Latest News</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
