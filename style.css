@@ -93,9 +93,11 @@ section{padding:10rem 0;}
 }
 .card-footer{border:0;background: #fff;}
 
+
                         /*==================================*/
-                            /* End Heading Section */
+                            /* End Formal & Casual Section */
                         /*==================================*/
+
 .custom-area{
     padding: 3rem;
     width:40rem;
@@ -115,7 +117,7 @@ section{padding:10rem 0;}
                         /*==================================*/
                             /* End Custom Section */
                         /*==================================*/
-                        
+
 #support i{font-size:5rem;color:#FA804C;} 
 
 #footer{
