@@ -2,8 +2,11 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
 }
-
+                        /*==================================*/
+                            /* 
+                        /*==================================*/
 html{font-size:62.5%;}
 a{text-decoration: none;}
 p{
@@ -37,6 +40,10 @@ section{padding:10rem 0;}
     color: #FA804C;
 
 }
+.dark-heiglight{
+    font-size: 7rem;
+    color: #363958;
+}
 #header{background: #FFF9F4;padding:2rem 0 5rem 0;}
 #header nav .logo{width:30rem;}
 #header nav .logo img{width:100%;}
@@ -50,10 +57,7 @@ section{padding:10rem 0;}
     color: #3B3B3B;
     margin-right: 3rem;
 }
-.dark-heiglight{
-    font-size: 7rem;
-    color: #363958;
-}
+
 .hero-text-box{
     margin:7rem 0 0 10rem;
 }
@@ -126,59 +130,34 @@ section{padding:10rem 0;}
 #footer ul li a:hover{
     color: #FA804C;
 }
-#footer .social-links{float: right;}
-#footer .social-links li{ float:left;}
 #footer .social-links li a{
-    font-size: 3rem;
-    margin-right: 2rem;
+    float:left;
+    margin-right: 3rem;
 }
 
 
 
-
-// X-Small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
-#header .hero-text-box h1{
-    font-size:4rem;
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .dark-heiglight,
+    .light-heiglight{
+        font-size:5rem;
+    }
+    .custom-area{margin: 2rem auto;}
+    .custom-card{
+        margin: 2rem auto;
+        margin-right: 0;
+        
+    }
+    section{padding:5rem 0}
+    
 }
-section{padding:5rem 0;}
-.section-head{text-align: center;}
-
-.custom-card{margin: 1.5rem auto;}
-
-.custom-area{ margin: 2rem auto;}
-.custom-area img{
-    width:7rem;
-    float:none;
-}
-
-#support .detail{text-align:center;margin: 2rem auto;}
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-
-#header .hero-text-box h1{
-    font-size:4rem;
-}
-section{padding:5rem 0;}
-.section-head{text-align: center;}
-
-.custom-card{margin: 1.5rem auto;}
-
-.custom-area{ margin: 2rem auto;}
-
-
-#support .detail{text-align:center;margin: 2rem auto;}
-
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-
-// X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... }
-
-// XX-Large devices (larger desktops)
-// No media query since the xxl breakpoint has no upper bound on its width
+@media (min-width: 575px) and (max-width: 767.98px) { 
+    .custom-card{
+        margin: 2rem auto;
+    }
+    .custom-area{margin: 2rem auto;}
+    .detail{text-align: center;margin: 2rem auto;}
+    section{padding: 5rem 0;}
+    .section-head{text-align: center;}
+    #footer 
+ }
