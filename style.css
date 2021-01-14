@@ -5,7 +5,7 @@ body{
     overflow-x:hidden;
 }
                         /*==================================*/
-                            /* 
+                            /* End Heading Section */
                         /*==================================*/
 html{font-size:62.5%;}
 a{text-decoration: none;}
@@ -61,6 +61,9 @@ section{padding:10rem 0;}
 .hero-text-box{
     margin:7rem 0 0 10rem;
 }
+                        /*==================================*/
+                            /* End Heading Section */
+                        /*==================================*/
 
 #casual .shoes-price,
 #formal .shoes-price{
@@ -90,7 +93,9 @@ section{padding:10rem 0;}
 }
 .card-footer{border:0;background: #fff;}
 
-
+                        /*==================================*/
+                            /* End Heading Section */
+                        /*==================================*/
 .custom-area{
     padding: 3rem;
     width:40rem;
@@ -107,7 +112,10 @@ section{padding:10rem 0;}
     float:left !important;
     margin-right: 2rem;
 }
-
+                        /*==================================*/
+                            /* End Custom Section */
+                        /*==================================*/
+                        
 #support i{font-size:5rem;color:#FA804C;} 
 
 #footer{
@@ -136,6 +144,9 @@ section{padding:10rem 0;}
 }
 
 
+                        /*==================================*/
+                            /* Start Media Qurie's Section */
+                        /*==================================*/
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
     .dark-heiglight,
@@ -151,7 +162,7 @@ section{padding:10rem 0;}
     section{padding:5rem 0}
     
 }
-@media (min-width: 575px) and (max-width: 767.98px) { 
+@media (min-width: 470px) and (max-width: 767.98px) { 
     .custom-card{
         margin: 2rem auto;
     }
